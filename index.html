@@ -1,4 +1,6 @@
-# index.html
+# Ultra Premium Portfolio
+
+## index.html
 
 ```html
 <!DOCTYPE html>
@@ -6,53 +8,146 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Puneet Kumar | Portfolio</title>
+  <title>Puneet Kumar | Data Analyst & Cloud Engineer</title>
 
-  <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://kit.fontawesome.com/4d7d1b6d89.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
+  <!-- BACKGROUND GLOW -->
+
+  <div class="bg-blur blur1"></div>
+  <div class="bg-blur blur2"></div>
+
   <!-- NAVBAR -->
 
   <header>
-    <nav>
-      <div class="logo">Puneet Kumar</div>
+    <nav class="container">
+
+      <div class="logo">
+        Puneet<span>.</span>
+      </div>
 
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+
     </nav>
   </header>
 
-  <!-- HERO SECTION -->
+  <!-- HERO -->
 
-  <section class="hero">
+  <section class="hero container">
 
-    <div class="hero-content">
+    <div class="hero-left">
 
-      <h1>Puneet Kumar</h1>
+      <div class="hero-badge">
+        <i class="fas fa-circle"></i>
+        Available For Work
+      </div>
 
-      <h2>Data Analyst | Data Scientist | Cloud Engineer | DevOps Engineer</h2>
+      <h1>
+        Building <span>Cloud</span>,
+        <span>Analytics</span> &
+        <span>Automation</span>
+        Solutions.
+      </h1>
+
+      <h2 id="typing-text">
+        Data Analyst | AWS Engineer | Python Developer
+      </h2>
 
       <p>
-        Motivated Data Science and Cloud Computing professional with hands-on
-        experience in Python, Machine Learning, AWS Cloud Architecture,
-        Power BI, Tableau, and DevOps automation.
+        Passionate about Power BI dashboards, AWS cloud architecture,
+        cybersecurity analytics, automation systems, and CI/CD pipelines.
+        I build modern data-driven solutions with strong UI and scalable cloud infrastructure.
       </p>
 
       <div class="hero-buttons">
-        <a href="https://github.com/Puneet-Xt" target="_blank">GitHub</a>
 
-        <a href="https://linkedin.com/in/puneet-kumar-152420218" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Puneet-Xt" target="_blank" class="primary-btn">
+          <i class="fab fa-github"></i>
+          GitHub
+        </a>
+
+        <a href="https://linkedin.com/in/puneet-kumar-152420218" target="_blank" class="secondary-btn">
+          <i class="fab fa-linkedin"></i>
+          LinkedIn
+        </a>
+
+      </div>
+
+      <div class="hero-stats">
+
+        <div class="stat-card">
+          <h3>10+</h3>
+          <p>Projects</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>AWS</h3>
+          <p>Cloud Projects</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>Power BI</h3>
+          <p>Dashboards</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- HERO RIGHT -->
+
+    <div class="hero-right">
+
+      <div class="glass-card">
+
+        <div class="profile-image">
+          <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="profile">
+        </div>
+
+        <h3>Puneet Kumar</h3>
+
+        <p>Data Analyst & Cloud Engineer</p>
+
+        <div class="mini-info">
+
+          <div>
+            <i class="fas fa-code"></i>
+            <span>Python & SQL</span>
+          </div>
+
+          <div>
+            <i class="fas fa-chart-line"></i>
+            <span>Power BI Analytics</span>
+          </div>
+
+          <div>
+            <i class="fas fa-cloud"></i>
+            <span>AWS Cloud</span>
+          </div>
+
+          <div>
+            <i class="fas fa-shield-alt"></i>
+            <span>Cybersecurity</span>
+          </div>
+
+        </div>
+
       </div>
 
     </div>
@@ -61,18 +156,45 @@
 
   <!-- ABOUT -->
 
-  <section id="about" class="section">
+  <section class="section" id="about">
 
-    <h2 class="section-title">About Me</h2>
+    <div class="container">
 
-    <div class="card">
+      <div class="section-heading">
+        <span>ABOUT ME</span>
+        <h2>Who I Am</h2>
+      </div>
 
-      <p>
-        I am a passionate Data Analyst and Cloud Engineer with practical experience
-        in Machine Learning, AWS Cloud, DevOps, Power BI, and data visualization.
-        I enjoy building real-world dashboards, cloud security solutions,
-        automation workflows, and analytics projects that deliver actionable insights.
-      </p>
+      <div class="about-grid">
+
+        <div class="about-card">
+          <i class="fas fa-user"></i>
+          <h3>Professional Profile</h3>
+          <p>
+            Motivated Data Analyst and AWS Cloud enthusiast skilled in Python,
+            Power BI, SQL, CI/CD pipelines, and cloud security monitoring.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <i class="fas fa-lightbulb"></i>
+          <h3>What I Build</h3>
+          <p>
+            Interactive dashboards, automation systems, AWS cloud projects,
+            GitHub deployment pipelines, and cybersecurity analytics solutions.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <i class="fas fa-rocket"></i>
+          <h3>Career Goal</h3>
+          <p>
+            To become a high-level cloud and analytics engineer building scalable,
+            secure, and intelligent systems for real-world business problems.
+          </p>
+        </div>
+
+      </div>
 
     </div>
 
@@ -80,55 +202,56 @@
 
   <!-- SKILLS -->
 
-  <section id="skills" class="section">
+  <section class="section dark-section" id="skills">
 
-    <h2 class="section-title">Technical Skills</h2>
+    <div class="container">
 
-    <div class="skills-container">
+      <div class="section-heading">
+        <span>TECH STACK</span>
+        <h2>Technical Skills</h2>
+      </div>
 
-      <div class="skill">Python</div>
-      <div class="skill">SQL</div>
-      <div class="skill">Power BI</div>
-      <div class="skill">Tableau</div>
-      <div class="skill">AWS</div>
-      <div class="skill">Machine Learning</div>
-      <div class="skill">Scikit-Learn</div>
-      <div class="skill">Pandas</div>
-      <div class="skill">NumPy</div>
-      <div class="skill">Matplotlib</div>
-      <div class="skill">Seaborn</div>
-      <div class="skill">Git</div>
-      <div class="skill">GitHub</div>
-      <div class="skill">Linux</div>
-      <div class="skill">CI/CD</div>
-      <div class="skill">CloudWatch</div>
-      <div class="skill">Lambda</div>
-      <div class="skill">Shell Scripting</div>
+      <div class="skills-grid">
 
-    </div>
+        <div class="skill-box">
+          <i class="fab fa-python"></i>
+          <h3>Python</h3>
+        </div>
 
-  </section>
+        <div class="skill-box">
+          <i class="fas fa-database"></i>
+          <h3>SQL</h3>
+        </div>
 
-  <!-- EXPERIENCE -->
+        <div class="skill-box">
+          <i class="fas fa-chart-bar"></i>
+          <h3>Power BI</h3>
+        </div>
 
-  <section id="experience" class="section">
+        <div class="skill-box">
+          <i class="fab fa-aws"></i>
+          <h3>AWS</h3>
+        </div>
 
-    <h2 class="section-title">Experience & Training</h2>
+        <div class="skill-box">
+          <i class="fab fa-github"></i>
+          <h3>GitHub</h3>
+        </div>
 
-    <div class="timeline">
+        <div class="skill-box">
+          <i class="fas fa-server"></i>
+          <h3>CI/CD</h3>
+        </div>
 
-      <div class="timeline-item">
+        <div class="skill-box">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Cloud Security</h3>
+        </div>
 
-        <h3>Data Science & Cloud Computing Trainee</h3>
-
-        <span>Thinknext Technologies Pvt. Ltd. | Oct 2025 – Apr 2026</span>
-
-        <p>
-          Completed industrial training in Python, Machine Learning,
-          AWS Cloud Architecture, and Data Visualization.
-          Built ML models, automated data pipelines,
-          and deployed cloud-native solutions using AWS services.
-        </p>
+        <div class="skill-box">
+          <i class="fab fa-linux"></i>
+          <h3>Linux</h3>
+        </div>
 
       </div>
 
@@ -138,117 +261,104 @@
 
   <!-- PROJECTS -->
 
-  <section id="projects" class="section">
+  <section class="section" id="projects">
 
-    <h2 class="section-title">Projects</h2>
+    <div class="container">
 
-    <div class="projects-grid">
-
-      <!-- PROJECT 1 -->
-
-      <div class="project-card">
-
-        <h3>Global Cybersecurity Threat Analysis Dashboard</h3>
-
-        <p>
-          Interactive Power BI dashboard analyzing 3,000+ cyber attacks globally.
-          Included trend analysis, country-wise mapping,
-          industry targeting breakdowns, and defense effectiveness analysis.
-        </p>
-
+      <div class="section-heading">
+        <span>PORTFOLIO</span>
+        <h2>Featured Projects</h2>
       </div>
 
-      <!-- PROJECT 2 -->
+      <div class="projects-grid">
 
-      <div class="project-card">
+        <div class="project-card">
+          <div class="project-top">
+            <span>01</span>
+          </div>
 
-        <h3>Amazon Sales Performance Dashboard</h3>
+          <h3>Global Cybersecurity Threat Dashboard</h3>
 
-        <p>
-          Professional Amazon-themed Power BI dashboard featuring KPI cards,
-          regional sales maps, top customer analysis,
-          profit margin tracking, and interactive slicers.
-        </p>
+          <p>
+            Advanced Power BI dashboard analyzing cyber attacks,
+            attack patterns, target industries, and financial impact globally.
+          </p>
 
-      </div>
+          <div class="project-tags">
+            <span>Power BI</span>
+            <span>Analytics</span>
+            <span>Cybersecurity</span>
+          </div>
+        </div>
 
-      <!-- PROJECT 3 -->
+        <div class="project-card">
+          <div class="project-top">
+            <span>02</span>
+          </div>
 
-      <div class="project-card">
+          <h3>Amazon Sales Dashboard</h3>
 
-        <h3>SSH Login Monitoring & Alerting - AWS SOC Project</h3>
+          <p>
+            Interactive Amazon-themed analytics dashboard featuring KPI tracking,
+            regional performance analysis, and dynamic visualizations.
+          </p>
 
-        <p>
-          Built a real-time AWS-based SOC monitoring system using EC2,
-          CloudWatch, SNS, IAM, and Linux authentication logs
-          to detect SSH brute-force login attempts.
-        </p>
+          <div class="project-tags">
+            <span>DAX</span>
+            <span>Power BI</span>
+            <span>Data Viz</span>
+          </div>
+        </div>
 
-      </div>
+        <div class="project-card">
+          <div class="project-top">
+            <span>03</span>
+          </div>
 
-      <!-- PROJECT 4 -->
+          <h3>AWS SOC Monitoring Project</h3>
 
-      <div class="project-card">
+          <p>
+            Built SSH login monitoring and real-time alerting solution using AWS EC2,
+            CloudWatch, SNS, IAM, and Linux authentication logs.
+          </p>
 
-        <h3>CI/CD Portfolio Deployment</h3>
+          <div class="project-tags">
+            <span>AWS</span>
+            <span>CloudWatch</span>
+            <span>Security</span>
+          </div>
+        </div>
 
-        <p>
-          Automated portfolio deployment using GitHub Actions
-          and GitHub Pages with CI/CD pipelines.
-        </p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- EDUCATION -->
-
-  <section id="education" class="section">
-
-    <h2 class="section-title">Education</h2>
-
-    <div class="education-grid">
-
-      <div class="education-card">
-        <h3>Bachelor of Science</h3>
-        <p>Biology, Chemistry, Physics (Medical)</p>
-        <span>Govt. College Dhaliara | 2019 – 2022</span>
-      </div>
-
-      <div class="education-card">
-        <h3>Higher Secondary (12th)</h3>
-        <p>Science (Medical)</p>
-        <span>Govt. Sen. Sec. School Haripur | 2018 – 2019</span>
-      </div>
-
-      <div class="education-card">
-        <h3>Secondary (10th)</h3>
-        <p>B.B.M.P School Indira Colony</p>
-        <span>2016 – 2017</span>
       </div>
 
     </div>
 
   </section>
 
-  <!-- CERTIFICATIONS -->
+  <!-- EXPERIENCE -->
 
-  <section class="section">
+  <section class="section dark-section" id="experience">
 
-    <h2 class="section-title">Certifications</h2>
+    <div class="container">
 
-    <div class="card">
+      <div class="section-heading">
+        <span>EXPERIENCE</span>
+        <h2>Professional Journey</h2>
+      </div>
 
-      <ul class="certifications-list">
+      <div class="timeline-card">
 
-        <li>
-          Professional Certification in Data Science (AI & ML)
-          and Cloud Computing - Thinknext Technologies Pvt. Ltd.
-        </li>
+        <h3>Data Science & Cloud Computing Trainee</h3>
 
-      </ul>
+        <span>ThinkNEXT Technologies Pvt. Ltd.</span>
+
+        <p>
+          Worked on real-world AWS cloud projects, Power BI dashboards,
+          automation systems, GitHub CI/CD deployments,
+          and cybersecurity monitoring projects.
+        </p>
+
+      </div>
 
     </div>
 
@@ -256,26 +366,69 @@
 
   <!-- CONTACT -->
 
-  <section id="contact" class="section">
+  <section class="section" id="contact">
 
-    <h2 class="section-title">Contact</h2>
+    <div class="container">
 
-    <div class="contact-card">
+      <div class="contact-box">
 
-      <p><strong>Email:</strong> punnetkumar995@gmail.com</p>
-      <p><strong>Phone:</strong> +91 8580603567</p>
+        <h2>Let's Build Something Amazing</h2>
 
-      <div class="hero-buttons">
+        <p>
+          Open to internships, collaborations, freelance projects,
+          and cloud/data analytics opportunities.
+        </p>
 
-        <a href="https://github.com/Puneet-Xt" target="_blank">GitHub</a>
+        <div class="contact-links">
 
-        <a href="https://linkedin.com/in/puneet-kumar-152420218" target="_blank">LinkedIn</a>
+          <a href="mailto:punnetkumar995@gmail.com">
+            <i class="fas fa-envelope"></i>
+            Email
+          </a>
+
+          <a href="https://github.com/Puneet-Xt" target="_blank">
+            <i class="fab fa-github"></i>
+            GitHub
+          </a>
+
+          <a href="https://linkedin.com/in/puneet-kumar-152420218" target="_blank">
+            <i class="fab fa-linkedin"></i>
+            LinkedIn
+          </a>
+
+        </div>
 
       </div>
 
     </div>
 
   </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+    <p>© 2026 Puneet Kumar • Built with HTML, CSS & GitHub Actions</p>
+  </footer>
+
+  <script>
+
+    const roles = [
+      'Data Analyst',
+      'AWS Cloud Engineer',
+      'Python Developer',
+      'Power BI Specialist'
+    ];
+
+    let index = 0;
+
+    const typingText = document.getElementById('typing-text');
+
+    setInterval(() => {
+      typingText.innerHTML = roles[index];
+      index = (index + 1) % roles.length;
+    }, 2000);
+
+  </script>
 
 </body>
 </html>
