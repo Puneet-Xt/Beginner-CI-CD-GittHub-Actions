@@ -18,7 +18,6 @@ Hi, I'm **Puneet Kumar** — a passionate:
 - ☁️ AWS Cloud Engineer
 - 🐍 Python Developer
 - 📈 Power BI Dashboard Creator
-- 🔐 Cybersecurity Enthusiast
 
 I build:
 - Modern dashboards
@@ -112,13 +111,13 @@ This portfolio is automatically deployed using:
 Clone the project:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone https://github.com/Puneet-Xt/YOUR_REPOSITORY.git
 ```
 
 Open folder:
 
 ```bash
-cd YOUR_REPOSITORY
+cd Begiiner-CI-CD-GittHub-Actions
 ```
 
 Run locally:
